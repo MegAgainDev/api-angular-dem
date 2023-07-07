@@ -1,0 +1,10 @@
+<h3>Users API</h3> 
+I used the Get Method to access Users Data Provided remotely from this URL: (<a href="https://reqres.in/api/users?page=1">https://reqres.in/api/users?page=1</a>)<br>
+<p>&nbsp;</p>
+Here are the results returned in a bullet list below: <br>
+<strong>Name and Email Address of Users</strong> <br>
+<ul>
+    <li *ngFor="let user of users">
+        {{user.first_name}} {{user.last_name}}, {{user.email}}
+    </li>
+</ul>

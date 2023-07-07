@@ -1,0 +1,21 @@
+<h3>Products API</h3>
+I used the Get Method to Access Product Data Provided remotely from this URL:
+(<a href="https://fakestoreapi.com/products/category/jewelery">https://fakestoreapi.com/products/category/jewelery</a>)
+<p>&nbsp;</p>
+Here are the results returned in a table list below: <br />
+<strong>List of Jewelery from Products</strong> <br />
+
+<table width="50%">
+  <tr aria-colspan="3" vAlign="top">
+    <td><strong>Image</strong></td>
+    <td><strong>Title</strong></td>
+    <td><strong>Description</strong></td>
+    <td><strong>Price</strong></td>
+  </tr>
+  <tr *ngFor="let product of products" aria-colspan="4" vAlign="top">
+    <td><img width="150px" src="{{ product.image }}" sizes="25%" /></td>
+    <td>{{ product.title }}</td>
+    <td>{{ product.description }}</td>
+    <td>${{ product.price }}</td>
+  </tr>
+</table>

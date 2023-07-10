@@ -1,7 +1,7 @@
 # [Angular Demo](https://github.com/MegAgainDev/mlaas/riskassesment/db/)
 
 ## Description
-To demonstrate an Angular app that integrates data into HTML format from APIs  (https://reqres.in/api/users?page=1) and (https://fakestoreapi.com/products/category/jewelery) .
+Demonstractes an Angular app that integrates data from APIs (https://reqres.in/api/users?page=1) and (https://fakestoreapi.com/products/category/jewelery).
 
 ## Technologies Used
 ![ANGULAR BADGE](https://img.shields.io/badge/Angular-red)

@@ -31,4 +31,4 @@ Demonstractes an Angular app that integrates data from APIs (https://reqres.in/a
 - Live Site: [Angular API Demo](https://angular-cmj-vxxck5.stackblitz.io)
 
 ## Updates
-Will be provided to improve functionality and user interface.
+Updates will be provided to improve functionality and user interface as changes are made.

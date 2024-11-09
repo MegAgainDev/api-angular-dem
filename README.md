@@ -1,7 +1,7 @@
-# [Angular Demo](https://github.com/MegAgainDev/mlaas/riskassesment/db/)
+# [Angular Demo]
 
 ## Description
-Demonstractes an Angular app that integrates data from APIs (https://reqres.in/api/users?page=1) and (https://fakestoreapi.com/products/category/jewelery).
+In this demonstration, I will use angular to generate a basic web application that will pull data from external APIs.  The APIs will populate a table of jewelry products and a bullet list of random users.  The datasources are provided from these free public API websites: (https://reqres.in/api/users?page=1) and (https://fakestoreapi.com/products/category/jewelery).
 
 ## Technologies Used
 ![ANGULAR BADGE](https://img.shields.io/badge/Angular-red)
